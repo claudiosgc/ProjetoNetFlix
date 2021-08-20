@@ -11,12 +11,22 @@
     box-sizing: border-box;
 }
 
+/*Elementos Base*/
 body {
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo{
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', 'Times New Roman', Times;
     font-size: 40px;
@@ -30,6 +40,15 @@ header nav a{
 
 header nav a:hover {
     color: #fff; /*Evento ao passar o mouse*/
+}
+
+/*Show Principal*/
+.shows-Principais{
+    font-size: 16px;
+    background: url('/img/metallica_Capa.png');
+
+    height: 400px;
+    background-size: cover;
 }
 
 
